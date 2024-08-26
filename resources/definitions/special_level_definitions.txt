@@ -1,0 +1,71 @@
+
+# Level 1
+# Pixel are of chick
+
+START_LEVEL
+level_name:Cute Chick
+ball_velocities:-50,7 0,6 50,7
+background:image(background_images/farm.jpg)
+paddle_speed:8
+paddle_width:160
+block_definitions:definitions/animals_block_definitions.txt
+blocks_start_x:270
+blocks_start_y:150
+row_height:18
+num_blocks:99
+START_BLOCKS
+-
+----wwww---
+---wwwwww--
+--wyywwyw--
+---bybwy---
+yy-rryyy-yy
+yyyyyyyyyyy
+-yyyyyyyyy-
+-wywyyyyyw-
+-wwwwywyww-
+-wwwwwwwww-
+-wwwwwwwww-
+--wwwwwww--
+---wwwww---
+
+END_BLOCKS
+END_LEVEL
+
+
+# Level 2
+# Pixel are of panda bear
+
+START_LEVEL
+level_name:Fight the Panda
+ball_velocities:-45,6 45,7
+background:image(background_images/safari.jpg)
+paddle_speed:9
+paddle_width:140
+block_definitions:definitions/animals_block_definitions.txt
+blocks_start_x:235
+blocks_start_y:100
+row_height:18
+num_blocks:122
+START_BLOCKS
+-
+-bbb----------bbb-
+bbbbb-bbbbbb-bbbbb
+bbbbbb------bbbbbb
+bbbb----------bbbb
+-bb------------bb-
+--b--bbb--bbb--b--
+-b--bbbb--bbbb--b-
+-b--bb-b--b-bb--b-
+-b--bbbb--bbbb--b-
+-b--bbb----bbb--b-
+-b--------------b-
+-b-----bbbb-----b-
+--b-----bb-----b--
+--b---b----b---b--
+---b---bbbb---b---
+----bb------bb----
+------bbbbbb------
+
+END_BLOCKS
+END_LEVEL
